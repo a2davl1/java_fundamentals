@@ -8,27 +8,124 @@ Initializing git folder
         a. Initialize folder as a git folder (make sure you are in the correct folder when initializing) by running
             the "git init" command within the git_practice folder.
         b. Make new file
-        c. Add file
+        c. Add filegit add
         d. Commit file
         c. On Github, create new git_practice repository
         d. Add this new GitHub repository as a new "remote" to your local Git repo. You can do this by using the command
             git remote add <ANY_NAME> <URL_OF_NEW_GITHUB_REPO.git>
+        // git remote add origin
         d. Push commit file to Github
         e. Practice the following git flow until you feel comfortable:
             i.   Create or modify file
             ii.  Add file(s)
             iii. Commit file(s)
-            iv.  Push file(s) to Github repository
+            iv.  Push file(s) to Github repository -
+
+            completed 8/26/24
 
 Adding a remote
     1. Create new personal repository on Github named "git_practice_2".
+        // done
     2. On local machine, add the new remote address to the same git repo you were working with in the previous section above
         (directions are provided on Github with new repo is created)
     3. Push local git repository to your Github using the new remote.
+        // cd git_practice
+        // git remote add new-origin https://github.com/a2davl1/git_practice_2.git
+        // git remote -v
+        // new-origin      https://github.com/a2davl1/git_practice_2.git (fetch)
+           new-origin      https://github.com/a2davl1/git_practice_2.git (push)
+           origin  https://github.com/a2davl1/git_practice.git (fetch)
+           origin  https://github.com/a2davl1/git_practice.git (push)
+        // git fetch new-origin
+            remote: Enumerating objects: 3, done.
+            remote: Counting objects: 100% (3/3), done.
+            remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+            Unpacking objects: 100% (3/3), 207 bytes | 20.00 KiB/s, done.
+            From https://github.com/a2davl1/git_practice_2
+            * [new branch]      main       -> new-origin/main
+        // git merge new-origin/main DID NOT WORK....
+        used...
+        // git pull new-origin main --allow-unrelated-histories From https:/github.com/a2davl1/git_practice_2
+            From https://github.com/a2davl1/git_practice_2
+             * branch            main       -> FETCH_HEAD
+            Merge made by the 'ort' strategy.
+             README.md | 1 +
+             1 file changed, 1 insertion(+)
+             create mode 100644 README.md
 
+             Completed
 Cloning repository from Github
     1. Find a repository on Github
+    done 8/26/24
+
     2. Clone repository to local machine
+    done https://github.com/sajidhamdard/learnjavascript
+
     3. Create new repository on Github
+        done
+        codingnomads/learningjavascript
+
     4. Add new remote on local machine
+
+        done
+        $ git remote add local https://github.com/a2davl1/learnjavascript.git
+        had to replace origin to local as origin was used by owner of repo
+
     5. Push to new Github repository
+
+        done
+        $ git push local main
+
+    COMPLETED
+
+    Certainly! Let's break down the steps for cloning a GitHub repository. It's like assembling a digital puzzle, and I promise it's much less frustrating than trying to find that one missing piece under the couch. 😄
+
+    1. **Find a Repository on GitHub:**
+       - Head over to [GitHub](https://github.com/) (you can do this in your web browser).
+       - Use the search bar at the top to look for the repository you're interested in. You can search by repository name, user, or topic.
+
+    done. cloned this:
+    https://github.com/sajidhamdard/learnjavascript
+    8/26/24
+
+    2. **Clone the Repository to Your Local Machine:**
+       - Once you've found the repository you want, click on it to open it.
+       - Look for the green "Code" button (usually near the top right). Click it.
+       - You'll see a URL. Make sure it says "HTTPS" (not SSH) and copy it.
+       - Now, open your Git client (like GitHub Desktop or Git Bash).
+       - Find an appropriate directory on your local machine where you want to clone the repository.
+       - Use the `git clone` command followed by the copied URL. For example:
+         ```
+         git clone https://github.com/username/repository-name.git
+         ```
+
+cloned repository
+
+    3. **Create a New Repository on GitHub (Optional):**
+       - If you want to create a new repository, go back to GitHub.
+       - Click the "+" sign in the top right corner and choose "New repository."
+       - Follow the prompts to set up your new repository.
+
+    4. **Add a New Remote on Your Local Machine:**
+       - Navigate to the cloned repository on your local machine using the terminal or Git client.
+       - Add a new remote (usually named "origin") using the following command:
+         ```
+         git remote add origin https://github.com/username/repository-name.git
+         ```
+
+    5. **Push to the New GitHub Repository:**
+       - Make some changes to the files in your local repository (add, edit, or delete files).
+       - Commit those changes using `git commit`.
+       - Finally, push your changes to the GitHub repository:
+         ```
+         git push origin main
+         ```
+         (Replace "main" with the appropriate branch name if it's different.)
+
+    And voilà! Your repository is now cloned, and you're ready to collaborate, contribute, or just marvel at your coding prowess. 🚀 If you have any questions along the way, feel free to ask—I'm here to help! 🤗
+
+    By the way, do you have a favorite programming language or any specific type of project you're working on? I'm always curious about what folks are building! 👩‍💻👨‍💻
+
+    ![Coding Cat](https://media.giphy.com/media/3o6Zt481isNVuQI1l6/giphy.gif)
+
+    *P.S. If you're using GitHub Desktop, it's like having a friendly robot assistant for version control. 🤖*

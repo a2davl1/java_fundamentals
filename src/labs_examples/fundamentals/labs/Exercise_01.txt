@@ -2,17 +2,26 @@ Fundamentals Exercise 1: CLI
      Perform the following tasks using the CLI and copy and paste the commands and results below
 
      1. Navigate to CodingNomads folder (or the space you have create for this project)
+             c/users/aaren/onedrive/documents/codingnomads/labs/online-java-fundamentals/labs/fundamentals/exercise01/
      2. Create new folder Terminal_testing
+            mkdir Terminal_testing
      3. Inside of folder Terminal_testing,
          a. create 3 new .txt files all with different names
          b. print the directory path
+            $ pwd
          c. list the contents of the folder
+            $ ls
      5. Inside of folder Terminal_testing, create a new folder
+            mkdir horse
      6. Copy a file from Terminal_testing to the new folder
+            $ cp cat.txt horse
      7. Move a different file from Terminal_testing to the new folder
+            $ mv dog.txt horse
      8. Demonstrate removing:
          a. A file
+            rm cat.txt
          b. A folder
+            
      9. CHALLENGE:
          a. Use $ vim to write some text inside a file
          b. Use $ cat print contents of file
@@ -23,3 +32,4 @@ Example Output:
     2. mkdir Terminal_testing
     3. //...
 
+COMPLETED ON 8/26/24
