@@ -1,0 +1,9 @@
+Writing text inside a file challenge.
+cat
+fish
+dog
+person
+cow
+donkey
+zebra
+

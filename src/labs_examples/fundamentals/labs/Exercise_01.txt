@@ -24,8 +24,17 @@ Fundamentals Exercise 1: CLI
             rm -r horse
      9. CHALLENGE:
          a. Use $ vim to write some text inside a file
+            vim fish.txt
          b. Use $ cat print contents of file
+            cat fish.txt
          c. Use $ grep to search for a word inside file
+            grep <text> fish.txt
+
+         committing changes
+            git commit -a
+
+         pushing changes to remote repo
+            git push -u GRINDMODE main
 
 Example Output:
     1. cd ~/Documents/CodingNomads/
