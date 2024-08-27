@@ -21,7 +21,7 @@ Fundamentals Exercise 1: CLI
          a. A file
             rm cat.txt
          b. A folder
-            
+            rm -r horse
      9. CHALLENGE:
          a. Use $ vim to write some text inside a file
          b. Use $ cat print contents of file
