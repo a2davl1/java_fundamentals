@@ -1,0 +1,11 @@
+completed exercise02 on 8/27/24
+
+see repository:
+
+https://github.com/a2davl1/git_practice
+
+https://github.com/a2davl1/git_practice2
+
+Cloned repository:
+
+https://github.com/a2davl1/learnjavascript
