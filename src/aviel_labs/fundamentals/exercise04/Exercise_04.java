@@ -1,4 +1,4 @@
-package fundamentals.exercise04;
+package aviel_labs.fundamentals.exercise04;
 
 /**
  * Fundamentals Exercise 4: My Second Program

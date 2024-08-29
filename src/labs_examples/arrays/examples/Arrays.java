@@ -1,6 +1,6 @@
 package labs_examples.arrays.examples;
 
-//for more array examples see: labs_examples.datatypes_operators/examples/labs_examples.arrays
+//for more array examples see: labs_examples.aviel_labs.datatypes_operators/examples/labs_examples.arrays
 
 // Find the minimum and maximum values in an array.
 class Arrays {

@@ -32,8 +32,8 @@ Your project is now created. Once loaded, you will see the directory structure o
 
 Now its time to run your first example!
 
-1. Click the down arrow on `online-java-fundamentals` to expand it.
-2. Expand the `src` folder, then again `labs_examples.fundamentals`, and again on `examples`
+1. Click the down arrow on `online-java-aviel_labs.fundamentals` to expand it.
+2. Expand the `src` folder, then again `labs_examples.aviel_labs.fundamentals`, and again on `examples`
 3. Double-click on `Example1` to open it.
 4. You can right click on the file and select 'Run' to run the code.
 

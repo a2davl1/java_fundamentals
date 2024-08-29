@@ -1,6 +1,6 @@
 package labs_examples.arrays.examples;
 
-//for more 2D array examples see: labs_examples.datatypes_operators/examples/labs_examples.arrays
+//for more 2D array examples see: labs_examples.aviel_labs.datatypes_operators/examples/labs_examples.arrays
 
 class MultiDArray {
     public static void main(String args[]) {
