@@ -1,4 +1,4 @@
-package labs_examples.fundamentals.labs;
+package aviel_labs.exercise05;
 
 
 /**
