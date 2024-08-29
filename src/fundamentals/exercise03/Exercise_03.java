@@ -1,4 +1,4 @@
-package aviel_labs.exercise03;
+package fundamentals.exercise03;
 
 /**
  * Fundamentals Exercise 3: My First Program
