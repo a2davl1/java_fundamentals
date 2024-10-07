@@ -1,4 +1,4 @@
-package labs_examples.datatypes_operators.examples;
+package aviel_labs.datatypes_operators.examples;
 
 /*
    Compute the distance to a lightening
