@@ -13,6 +13,12 @@ class DynInit {
 }
 
 /*
+Output:
+Volume is 251.328
+
+ */
+
+/*
     class declaration
         DynInit class contains the main method
         Main method:

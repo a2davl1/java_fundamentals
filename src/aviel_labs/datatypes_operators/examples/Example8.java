@@ -21,6 +21,13 @@ class ScopeDemo {
 }
 
 /*
+
+Output:
+x and y: 10 20
+x is 40
+
+ */
+/*
     Class Declaration: The ScopeDemo class contains the main method.
     Main Method: This is where the program execution starts.
         Variable Declaration:

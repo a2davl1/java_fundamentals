@@ -10,6 +10,15 @@ class StrDemo {
 }
 
 /*
+Output:
+First line
+Second line
+A	B	C
+D	E	F
+
+ */
+
+/*
 
 Class declaration
     StrDemo class contains the main method

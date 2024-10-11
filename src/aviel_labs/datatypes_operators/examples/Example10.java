@@ -14,6 +14,15 @@ count keeps getting reset to 0
 
 Update- does not compile when i is reinitialized
 */
+
+/*
+    Output:
+        This is count: 3
+        This program is in error!
+    -infinite loop!
+
+ */
+
 class NestVar {
     public static void main(String args[]) {
         int count;

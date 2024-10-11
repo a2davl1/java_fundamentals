@@ -17,6 +17,12 @@ class Sound {
 }
 
 /*
+Output
+The lightening is 7920.0 feet away.
+
+ */
+
+/*
     Class Declaration:
         the sound class contains the main method
     main method
