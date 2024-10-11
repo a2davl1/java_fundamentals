@@ -27,3 +27,37 @@ class NestVar {
         }
     }
 }
+
+/*
+    Class Declaration
+        The NestVar class contains the main method
+    Main Method
+        Variable Declration:
+            int count; declares a variable count that is accessible within the main method
+        Outer for Loop:
+            for(count = 0; count < 10; count = count+1)
+                initializes count to 0 and runs the loop while count is less than 10.
+                After each iteration, it increments count by 1.
+            System.out.println("This is count: " + count);
+                prints the value of count during each iteration.
+        Innner for Loop:
+            The commmented out line //int count; // illegal!!!
+                shows that declaring another variable named count within this scope is
+                illegal because the variable count is already declared in the enclosing scope.
+            for(count = 0; count < 2: count++)
+                runs a nested loop which will over write the value of count from the outer loop
+                causing confusion and logic errors.
+            System.out.println("This program is in error!");
+                prints a message indicating an error in the program's logic.
+    Key Points:
+        Variable Scope:
+            The variable count is declared in the main method and should ideally not be
+                redclared or reused within the inner loop.
+            Declaring count again within the inner loop would cause a compilation error because
+                it's already declared in the enclosing scope.
+        Logic Error:
+            The inner loop overwrites the value of count, leading to incorrect behavior and confusion.
+    The key takeaway here is the importance of variable scope and avoiding variable shadowing,
+        which can lead to errors and difficult-to-debug code.
+
+ */
