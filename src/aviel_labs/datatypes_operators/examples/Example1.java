@@ -20,6 +20,12 @@ class Inches {
 }
 
 /*
+Output
+There are 254358061056000 cubic inches in cubic mile.
+
+ */
+
+/*
    Notes
 Class Declaration: Inches class contains the main method
 Main Method: This is where the program starts executing.

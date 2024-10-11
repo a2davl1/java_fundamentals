@@ -19,6 +19,13 @@ class Hypot {
         System.out.println("Hypotenuse is " +z);
     }
 }
+
+/*
+Output:
+Hypotenuse is 5.0
+
+ */
+
 /*
 Class declaration:
     the Hypot class contains the main method

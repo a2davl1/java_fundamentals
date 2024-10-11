@@ -15,6 +15,15 @@ class CharArithDemo {
         System.out.println("ch is now " + ch);
     }
 }
+
+/*
+Output:
+ch contains X
+ch is now Y
+ch is now Z
+
+ */
+
 /*
     Main method
         variable declaration:
