@@ -44,18 +44,13 @@ Result and remainder of 10.0 / 3.0: 3.3333333333333335 1.0
         System.out.println("Result and remainder of 10.0 / 3.0: " + dresult + " " + drem);
             prints the results of the floating-point division and remainder.
 
-Key Points:
-Integer Division:
+    Key Points:
+        Integer Division:
+            The result of 10 / 3 is 3 (integer division).
+            The remainder of 10 % 3 is 1.
+        Floating-Point Division:
+            The result of 10.0 / 3.0 is approximately 3.3333.
+            The remainder of 10.0 % 3.0 is 1.0.
 
-The result of 10 / 3 is 3 (integer division).
-
-The remainder of 10 % 3 is 1.
-
-Floating-Point Division:
-
-The result of 10.0 / 3.0 is approximately 3.3333.
-
-The remainder of 10.0 % 3.0 is 1.0.
-
-This code showcases the difference between integer and floating-point division in Java
+    This code showcases the difference between integer and floating-point division in Java
  */
