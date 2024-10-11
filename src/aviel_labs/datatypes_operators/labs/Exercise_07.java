@@ -24,6 +24,10 @@ public class Exercise_07 {
         int days = scanner.nextInt();
 
         // write completed code here
+        // Convert days to seconds
+        long seconds = days * 24L * 60L * 60L;
 
+        // Print out the result
+        System.out.println(days + " days is equal to " + seconds + " seconds.");
     }
 }
