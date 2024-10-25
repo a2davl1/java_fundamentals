@@ -23,3 +23,11 @@ class NoBreak {
     }
 }
 
+/*
+Summary:
+The absence of break statements means each case "falls through" to the subsequent cases,
+printing all matching messages until the end of the switch block.
+This creates cumulative output for each value of i.
+
+
+ */

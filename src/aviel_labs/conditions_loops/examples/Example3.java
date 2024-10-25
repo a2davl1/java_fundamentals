@@ -16,3 +16,12 @@ class Guess2 {
         else System.out.println("...Sorry, you're wrong.");
     }
 }
+
+/*
+Summary:
+The program prompts the user to guess a letter between A and Z.
+
+It reads the user's input and compares it to the answer, which is 'K'.
+
+If the guess is correct, it prints "** Right **"; if incorrect, it prints "...Sorry, you're wrong."
+ */

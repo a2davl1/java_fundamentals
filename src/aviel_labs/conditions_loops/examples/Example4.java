@@ -22,3 +22,16 @@ class Guess3 {
         }
     }
 }
+
+/*
+Summary:
+The program prompts the user to guess a letter between A and Z.
+
+It reads the user's input and compares it to the answer, which is 'K'.
+
+If the guess is correct, it prints "** Right **".
+
+If the guess is incorrect, it prints "...Sorry, you're too low" if the guess is lower than 'K',
+or "...Sorry, you're too high" if the guess is higher than 'K'.
+
+ */

@@ -28,3 +28,23 @@ class SwitchDemo {
 
     }
 }
+
+/*
+Execution:
+When i is 0: Prints "i is zero".
+
+When i is 1: Prints "i is one".
+
+When i is 2: Prints "i is two".
+
+When i is 3: Prints "i is three".
+
+When i is 4: Prints "i is four".
+
+When i is 5, 6, 7, 8, 9: Prints "i is five or more".
+
+Summary:
+The loop iterates from 0 to 9 and uses a switch statement to print a specific message based on the value of i.
+If i is 0 to 4, it prints the respective value message. For values 5 and above, it prints "i is five or more".
+
+ */

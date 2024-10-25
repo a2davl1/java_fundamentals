@@ -37,3 +37,13 @@ class Help {
         }
     }
 }
+
+/*
+Summary:
+The program displays a simple help menu for if and switch statements.
+
+It reads the user's input and provides the corresponding help text based on the choice.
+
+If the user enters an invalid choice, it prints "Selection not found."
+
+ */

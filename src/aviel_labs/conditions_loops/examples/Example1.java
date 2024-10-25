@@ -14,3 +14,11 @@ class KbIn {
         System.out.println("Your key is: " + ch);
     }
 }
+
+/*
+
+    Summary:
+        The program prompts the user to press a key and then press Enter.
+        It reads the first character input by the user and prints it back to the console.
+
+ */
