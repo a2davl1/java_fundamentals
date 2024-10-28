@@ -40,4 +40,5 @@ The for loop does not have a body; all actions occur in the loop header.
 The final sum is printed out after the loop ends.
 
 By the end of the loop, the value of sum will be the sum of numbers from 1 to 10,000, which is 50,005,000.
+
 */
